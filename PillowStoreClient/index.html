@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>TodoList</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='card.css'>
+
+</head>
+<body>
+  <header>
+    <h2>Pillow shop</h2>
+    <button type="button" id="summaryButton" name="button">Summary price</button>
+    <p id="summary"></p>
+<hr>
+    <button type="button" id="sortBySquare" name="button">Sort By Square</button>
+<hr>
+<div class="searchInput">
+  <label>Search your pillow</label>
+  <br>
+  <input type="text" id="searchInput" name="title" placeholder="name" value="">
+</div>
+
+
+  </header>
+<div id="pillows">
+
+</div>
+<form class="" name="pillow" action="index.html" method="post">
+  <form name="pillow">
+       <input type="text" name="title" placeholder="title" required oninvalid="this.setCustomValidity('Input title name')" oninput="setCustomValidity('')">
+       <input type="text" name="description" placeholder="description">
+       <input type="number" name="price" placeholder="price">
+       <input type="number" name="width" placeholder="width">
+       <input type="number" name="height" placeholder="height">
+       <button type="submit">Add</button>
+   </form>
+</form>
+</body>
+<script src='main.js' type="module"></script>
+
+</script>
+</html>
