@@ -1,0 +1,33 @@
+div#pillows{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 100px 50px;
+  position: relative;
+}
+div#pillows .pillow-card{
+  margin-bottom: 30px;
+  width:250px;
+  background-color: rgba(150, 150, 150, 0.5);
+  border-radius: 30px;
+}
+div#pillows .pillow-card:hover{
+  transform: scale(1.2);
+}
+div#pillows .pillow-card h3{
+  text-align: center;
+}
+div#pillows .pillow-card ul p{
+    display: inline;
+    margin-right: 30px;
+}
+div#pillows .pillow-card .price {
+  text-align: center;
+}
+div#pillows .pillow-card button.delete{
+  margin-left: 160px;
+}
+div#pillows .pillow-card button.edit{
+  position: static;
+  
+}
